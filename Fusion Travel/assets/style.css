@@ -1,0 +1,263 @@
+body{
+    margin: 0;
+    height: 3000px;
+    background: url(https://w-dog.ru/wallpapers/11/5/308355021143999/tixij-okean-ostrov-aitutaki-ostrova-kuka-more-plyazh-palmy-voda-prozrachnost.jpg) no-repeat;
+    background: cover;
+    background-size: 1980px 960px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: capitalize;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    max-width: 1980px;
+    margin: 0 auto;
+}
+
+@media(max-width:1980px){
+    .container{
+        max-width: 970px;
+    }
+}
+@media(max-width:992px){
+    .container{
+        max-width:750px ;
+    }
+}
+@media(max-width: 767px){
+    .container{
+        max-width:none ;
+    }
+}
+
+h1,h2,h3,h4,h5{margin: 0;}
+
+/*Header*/
+.first{
+    margin-top: 10px;
+    font-size: 30px;
+    background-color: #fff;
+    color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1vh solid #fff;
+    cursor: pointer;
+    position: fixed;
+    transition: .1s linear;
+}
+.second{
+    margin-top: 80px;
+    font-size: 30px;
+    background-color: #fff;
+    color: #333;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    border: 1vh solid #fff;
+    cursor: pointer;
+    position: fixed;
+    transition: .1s linear;
+}
+
+.first:hover{
+    background-color: #44F2EC;
+    color: #fff;
+    border: 1vh solid #44F2EC;
+}
+
+.second:hover{
+    background-color: #44F2EC;
+    color: #fff;
+    border: 1vh solid #44F2EC;
+}
+
+header{
+    width: 100%;
+    font-size: 16px;
+    height: 60px;
+    border-bottom: 3px solid #fff;
+    line-height: 60px;
+}
+.nav_link{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    position: relative;
+    left: 200px;
+    z-index: 1000;
+    transition: .1s linear;
+}
+.nav_link:hover{
+    color:#44F2EC;
+}
+.ph_number{
+    color: #fff;
+    text-align: end;
+    position: relative;
+    right: 100px;
+    bottom: 60px;
+}
+
+
+
+/*Intro*/
+.intro{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    position: relative;
+    top: 450px;
+}
+.intro_title{
+    font-size: 60px;
+}
+.intro_suptitle{
+    font-size: 18px;
+    font-weight: normal;
+    position: relative;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    margin: 300px 860px 0px ;
+	display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 400px;
+	padding: 8px 30px ;
+    background-color: cornflowerblue;
+
+	border: 3px  ;
+    border-radius: 50px;
+
+	font-size: 13px;
+	font-weight: 500;
+	color: #fff;
+	text-transform: capitalize;
+	text-decoration:none;
+    cursor: pointer;
+
+	transition: background .1s
+	linear, color .1s linear;
+}
+.btn:hover{
+	background-color: #fff;
+	color: black;
+}
+/*Section*/
+.section{
+    padding: 80px 0;
+}
+
+.section_header{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0  auto 40px;
+    text-align: center;
+    text-transform: none;
+}
+
+.section_title{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    font-weight: normal;
+    opacity: 1;
+}
+
+.section_text{
+    font-size: 20px ;
+    opacity: 0.6;
+}
+
+.section_title::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 40px auto;
+
+    background-color: greenyellow ;
+}
+/*Блоки для текста*/
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 25px;
+    text-transform: capitalize;
+}
+
+.about_item{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 100px;
+    color: greenyellow;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.about_title{
+    font-size: 30px;
+    color: #333;
+}
+
+.about_text{
+    font-size: 20px;
+    margin-top: 30px;
+    color: #333;
+    font-weight: normal;
+    text-transform: none;
+}
+
+.buttons{
+    color: greenyellow;
+    margin-top: 100px;
+}
+
+.second_title{
+    margin-top: 100px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    opacity: 0.8;
+}
+.asuptitle{
+    text-transform: capitalize;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: normal;
+}
+.aserch{
+    font-size: 20px;
+    color: black;
+}
+.search{
+    margin-top: 40px;
+    margin-right: 10px;
+    background-color: #fff;
+    color: black;
+}
+
+.aabout{
+    display:flex;
+    justify-content:space-between;
+}
+.img{
+    margin:20px;
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+}
+.img:hover{
+    background: aqua;
+    opacity: 0.8;
+    transition: .1s linear;
+}
